@@ -1,0 +1,18 @@
+.sidebar {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Mobile Sidebar */
+  .sidebar.closed {
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  /* Permanent Sidebar on Desktop */
+  .sidebar.permanent {
+    width: 280px;
+  }
+  
